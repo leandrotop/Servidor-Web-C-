@@ -1,0 +1,5 @@
+dotnet new winforms -o tasks_teams -n tasks_teams
+dotnet add package MySql.Data --version 8.0.29
+dotnet new web -n tasks_teams
+
+https://phpmyadmin.srv-108-181-92-70.hostoo.io/tbl_structure.php?server=1&db=servidor&table=mensagem
